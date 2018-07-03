@@ -9,7 +9,7 @@ let colours = [
 
 
 let squares = document.querySelectorAll(".square");
-let pickedColour = colours[3];
+let pickedColour = randColour();
 let colourDisplay = document.querySelector("#colourdisplay");
 colourDisplay.textContent = pickedColour;
 let messageDisplay = document.querySelector("#message")
@@ -37,6 +37,10 @@ for (let i = 0; i < squares.length; i++){
         }
 
     })
+}
+function randColour() {
+    let rand = Math.floor((Math.random() * colours.length));
+    return colours[rand];
 }
 
 function changeColours(winColour) {
