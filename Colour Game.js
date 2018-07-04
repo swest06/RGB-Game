@@ -1,4 +1,4 @@
-let colours = generateColours(6);
+let colours = generateColours(numOfSquares);
 let squares = document.querySelectorAll(".square");
 let pickedColour = randPick();
 let colourDisplay = document.querySelector("#colourdisplay");
@@ -8,6 +8,7 @@ let h1 = document.querySelector("h1");
 let resetButton = document.querySelector("#reset");
 let easyBtn = document.querySelector("#easy");
 let hardBtn = document.querySelector("#hard");
+let numOfSquares = 6;
 
 let correct = false;
 
@@ -16,7 +17,8 @@ easyBtn.addEventListener("click", function () {
     easyBtn.classList.add("selected");
     hardBtn.classList.remove("selected");
     resetButton.classList.remove("selected");
-    colours = generateColours(3);
+    numOfSquares = 3;
+    colours = generateColours(numOfSquares);
     pickedColour = randPick();
     colourDisplay.textContent = pickedColour;
     for (let i = 0; i < squares.length; i++) {
@@ -33,11 +35,19 @@ hardBtn.addEventListener("click", function () {
    hardBtn.classList.add("selected");
    easyBtn.classList.remove("selected");
    resetButton.classList.remove("selected");
+   numOfSquares = 6;
+   colours = generateColours(numOfSquares);
+   pickedColour = randPick();
+   colourDisplay.textContent = pickedColour;
+   for (let i = 0; i < squares.length; i++) {
+        squares[i].style.backgroundColor = colours[i];
+        squares[i].style.display = "block";
+   }
 });
 
 //Reset Button
 resetButton.addEventListener("click", function () {
-    colours = generateColours(6);
+    colours = generateColours(numOfSquares);
     pickedColour = randPick();
     colourDisplay.textContent = pickedColour;
     for (let i = 0; i < squares.length; i++) {
