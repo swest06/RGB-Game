@@ -5,6 +5,9 @@ body{
 h1{
     color: lightsteelblue;
 }
+.selected{
+    background-color: blue;
+}
 
 .square{
     background-color: darkslateblue;
