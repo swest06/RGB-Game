@@ -1,3 +1,4 @@
+let numOfSquares = 6;
 let colours = generateColours(numOfSquares);
 let squares = document.querySelectorAll(".square");
 let pickedColour = randPick();
@@ -8,7 +9,7 @@ let h1 = document.querySelector("h1");
 let resetButton = document.querySelector("#reset");
 let easyBtn = document.querySelector("#easy");
 let hardBtn = document.querySelector("#hard");
-let numOfSquares = 6;
+
 
 let correct = false;
 
@@ -54,7 +55,7 @@ resetButton.addEventListener("click", function () {
         //add initial colours to squares
         squares[i].style.backgroundColor = colours[i];
     }
-    h1.style.backgroundColor = "#232323";
+    h1.style.backgroundColor = "steelblue";
 });
 
 //Sets Colours
@@ -65,7 +66,6 @@ for (let i = 0; i < squares.length; i++){
     //add click listeners to squares
     squares[i].addEventListener("click", function () {
         correct = this.style.backgroundColor === pickedColour;
-        alert(correct);
         if (correct === true){
             messageDisplay.textContent = "Correct";
             resetButton.textContent = "Play Again";

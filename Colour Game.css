@@ -1,12 +1,26 @@
 body{
     background-color: #232323;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 h1{
     color: lightsteelblue;
+    background-color: steelblue;
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+}
+#colourdisplay{
+    font-size: 200%;
 }
 .selected{
-    background-color: blue;
+    background-color: steelblue;
+    color: white;
+    border: none;
 }
 
 .square{
@@ -15,6 +29,10 @@ h1{
     padding-bottom: 30%;
     margin: 1.66%;
     float: left;
+    border-radius: 15%;
+    transition: background .4s;
+    -webkit-transition: background .4s;
+    -moz-transition: background .4s;
 }
 #container{
     max-width: 700px;
@@ -27,4 +45,25 @@ h1{
     background-color: white;
     height: 30px;
     text-align: center;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all .3s;
+}
+button:hover{
+    color: white;
+    background: steelblue;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
 }
