@@ -1,18 +1,10 @@
-let colours = [
-    "rgb(0, 0, 255)",
-    "rgb(255, 255, 0)",
-    "rgb(0, 255, 0)",
-    "rgb(255, 0, 255)",
-    "rgb(0, 255, 255)",
-    "rgb(255, 0, 0)",
-];
-
-
+let colours = generateColours(6);
 let squares = document.querySelectorAll(".square");
-let pickedColour = randColour();
+let pickedColour = randPick();
 let colourDisplay = document.querySelector("#colourdisplay");
 colourDisplay.textContent = pickedColour;
 let messageDisplay = document.querySelector("#message")
+let h1 = document.querySelector("h1");
 
 let correct = false;
 
@@ -38,7 +30,24 @@ for (let i = 0; i < squares.length; i++){
 
     })
 }
+function generateColours(num) {
+    let arr = [];
+    for (let i = 0; i < num; i++){
+        arr.push(randColour());
+        //
+    }
+    return arr;
+}
+
 function randColour() {
+    let r = Math.floor(Math.random() * 255 + 1);
+    let g = Math.floor(Math.random() * 255 + 1);
+    let b = Math.floor(Math.random() * 255 + 1);
+    let col = "rgb(" + r + ", " + g + ", " + b + ")";
+    return col;
+}
+
+function randPick() {
     let rand = Math.floor((Math.random() * colours.length));
     return colours[rand];
 }
@@ -46,5 +55,6 @@ function randColour() {
 function changeColours(winColour) {
     for (let i = 0; i < squares.length; i++){
         squares[i].style.backgroundColor = winColour;
+        h1.style.backgroundColor = winColour;
     }
 }
