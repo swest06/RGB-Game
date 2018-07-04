@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="273e5a31-9ee0-4dfb-a5ef-6d756fd5ee89" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Colour Game.css" beforeDir="false" afterPath="$PROJECT_DIR$/Colour Game.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Colour Game.html" beforeDir="false" afterPath="$PROJECT_DIR$/Colour Game.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Colour Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/Colour Game.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +18,8 @@
       <file leaf-file-name="Colour Game.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Colour Game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -25,8 +27,8 @@
       <file leaf-file-name="Colour Game.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Colour Game.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="136">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -34,8 +36,8 @@
       <file leaf-file-name="Colour Game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Colour Game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="323">
+              <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -57,8 +59,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Colour Game.html" />
         <option value="$PROJECT_DIR$/Colour Game.css" />
+        <option value="$PROJECT_DIR$/Colour Game.html" />
         <option value="$PROJECT_DIR$/Colour Game.js" />
       </list>
     </option>
@@ -126,12 +128,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530581964643</updated>
-      <workItem from="1530581965915" duration="11594000" />
+      <workItem from="1530581965915" duration="13349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11594000" />
+    <option name="totallyTimeSpent" value="13349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="696" height="735" extended-state="0" />
@@ -167,22 +169,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Colour Game.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Colour Game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Colour Game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="323">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
         </state>
       </provider>
     </entry>

@@ -5,8 +5,20 @@ let colourDisplay = document.querySelector("#colourdisplay");
 colourDisplay.textContent = pickedColour;
 let messageDisplay = document.querySelector("#message")
 let h1 = document.querySelector("h1");
+let resetButton = document.querySelector("#reset");
 
 let correct = false;
+
+resetButton.addEventListener("click", function () {
+    colours = generateColours(6);
+    pickedColour = randPick();
+    colourDisplay.textContent = pickedColour;
+    for (let i = 0; i < squares.length; i++) {
+        //add initial colours to squares
+        squares[i].style.backgroundColor = colours[i];
+    }
+    h1.style.backgroundColor = "#232323";
+});
 
 for (let i = 0; i < squares.length; i++){
     //add initial colours to squares
@@ -18,6 +30,7 @@ for (let i = 0; i < squares.length; i++){
         alert(correct);
         if (correct === true){
             messageDisplay.textContent = "Correct";
+            resetButton.textContent = "Play Again";
             changeColours(pickedColour);
         }else{
             this.style.backgroundColor = "#232323";

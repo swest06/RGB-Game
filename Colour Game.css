@@ -17,6 +17,11 @@ h1{
     max-width: 700px;
     margin: 0 auto;
 }
-span{
-    color: white;
+/*span{*/
+    /*color: white;*/
+/*}*/
+#strip{
+    background-color: white;
+    height: 30px;
+    text-align: center;
 }
